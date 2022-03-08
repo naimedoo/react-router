@@ -30,8 +30,8 @@ class Produits extends React.Component {
              {
              this.state.array.map(product=>{
                  return <div> 
-                     <li>{product.title}</li>
-                     <li>{product.price}</li>
+                     <p>{product.title}</p>
+                     <p>{product.price} €</p>
                      <img src={product.image} width="200px" />
                  </div>
                }
